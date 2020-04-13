@@ -1,2 +1,3 @@
 FROM busybox
-CMD ["echo -e 'Hello World!'"]
+#RUN ["echo -e 'Hello World!'"]
+CMD /bin/bash -c 'echo -e "Hello World!"'
